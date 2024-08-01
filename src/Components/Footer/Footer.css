@@ -1,0 +1,41 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-section {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .social-media-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media-links li {
+    margin: 5px 0;
+  }
+  
+  .social-media-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-media-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .map-container {
+    margin-top: 10px;
+  }
+  

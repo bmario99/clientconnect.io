@@ -1,0 +1,55 @@
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 100px;
+    justify-content: space-between; /* Distribute items evenly */
+  }
+  
+  .project-card {
+    width: calc(50% - 20px); /* Two items per row with gap */
+    margin-bottom: 20px; /* Add some space between rows */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 400px; /* Adjusted height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align content to the bottom */
+  }
+  
+  .project-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .project-card h3,
+  .project-card p {
+    color: #fff; /* Ensure text is visible */
+  }
+  
+  .project-card.patios-walkways {
+    background-image: url('../../assets/images/patios_walkways.jpg');
+  }
+  
+  .project-card.driveways-steps {
+    background-image: url('../../assets/images/driveways_steps.jpg');
+  }
+  
+  .project-card.stone-veneer {
+    background-image: url('../../assets/images/stone_veneer.jpg');
+  }
+  
+  .project-card.stonewalls {
+    background-image: url('../../assets/images/stonewalls.jpg');
+  }
+  
+  .project-card.barbecue-grill {
+    background-image: url('../../assets/images/barbecue_grill.jpg');
+  }
+  
